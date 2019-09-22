@@ -29,7 +29,18 @@
 
 ---
 
+### **Code examples**
 
+```javascript
+        var strOut = JSON.stringify(count, function(key, value) {
+            if (value == 0) return undefined;
+            return value;
+            }
+        ); 
+        document.write ('<br/> <br/> Ваши деньги можно разбить следующим образом: ' + strOut);
+``` 
+
+---
 
 ### **Developing experience:**  
  - Fashion Blog  
