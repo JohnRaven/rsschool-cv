@@ -42,6 +42,15 @@
         <li>VS Code, Sublime Text</li>
       </ul>
       <hr>
+      <h3><strong>Code examples</strong></h3>
+      <pre>
+          var strOut = JSON.stringify(count, function(key, value) {
+            if (value == 0) return undefined;
+            return value;
+            }); 
+          document.write ('Ваши деньги можно разбить следующим образом: ' + strOut);
+      </pre>
+      <hr>
       <h3><strong>Developing experience:</strong></h3>
       <ul>
         <li>Fashion Blog</li>
